@@ -25,11 +25,14 @@ let g:go_fmt_command = "goimports"
 
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 let g:deoplete#enable_at_startup = 1
+let g:rainbow_active = 1
 
 "dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
 endif
+
+" change PATH/TO/.chache/dein
 
 " Required:
 set runtimepath+=/Users/Haruka/.cache/dein/repos/github.com/Shougo/dein.vim
@@ -54,6 +57,8 @@ if dein#load_state('/Users/Haruka/.cache/dein')
   call dein#add('Yggdroot/indentLine')
 
   call dein#add('Shougo/deoplete.nvim')
+
+  call dein#add('luochen1990/rainbow')
 
   " Required:
   call dein#end()
