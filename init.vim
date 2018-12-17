@@ -14,13 +14,14 @@ noremap k gk
 
 set shiftwidth=4
 set expandtab
-set showmatch 
+set showmatch
 set nowritebackup
 set nobackup
 set noswapfile
 "set textwidth=0
 set colorcolumn=80
 
+let g:tex_conceal=''
 let g:go_fmt_command = "goimports"
 
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
@@ -31,8 +32,6 @@ let g:rainbow_active = 1
 if &compatible
   set nocompatible               " Be iMproved
 endif
-
-" change PATH/TO/.chache/dein
 
 " Required:
 set runtimepath+=/Users/Haruka/.cache/dein/repos/github.com/Shougo/dein.vim
@@ -75,4 +74,3 @@ if dein#check_install()
 endif
 
 "End dein Scripts-------------------------
-
