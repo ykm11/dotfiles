@@ -14,8 +14,7 @@ colors
 # aliases
 alias u='cd ../'
 alias uu='cd ../../'
-alias :p="export http_proxy='http://proxy.anan-nct.ac.jp:8080/';export https_proxy='http://proxy.anan-nct.ac.jp:8080/'"
-alias :q='export http_proxy="";export https_proxy=""'
+
 alias l='ls -l'
 alias c='clear'
 alias grep="grep --color=auto"
