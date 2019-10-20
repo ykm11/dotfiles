@@ -21,7 +21,6 @@ set noswapfile
 "set textwidth=0
 set colorcolumn=80
 
-export PS1="%{$fg[cyan]%}ykm11: $%{$reset_color%} "
 
 let g:tex_conceal=''
 let g:go_fmt_command = "goimports"
