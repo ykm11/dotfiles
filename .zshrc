@@ -30,3 +30,4 @@ export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
 
 
+export PS1="%{$fg[cyan]%}ykm11: $%{$reset_color%} "
